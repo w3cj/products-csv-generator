@@ -1,0 +1,15 @@
+{
+  "name": "products-csv-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-data": "npx fakeit directory data products.yaml -f csv -c 10000"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "fakeit": "^1.4.0"
+  }
+}
